@@ -1,5 +1,11 @@
+shell:
+  program: /bin/fish
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
 font:
-  size: 10
+  size: 9
   normal:
     family: Hack Nerd Font Mono
     style: Regular

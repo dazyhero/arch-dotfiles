@@ -12,4 +12,10 @@ call plug#begin()
   Plug 'windwp/nvim-ts-autotag'
   Plug 'preservim/nerdtree'
   Plug 'onsails/lspkind-nvim'
+  Plug 'L3MON4D3/LuaSnip'
+  Plug 'tpope/vim-fugitive'
+  Plug 'jiangmiao/auto-pairs'
+  Plug 'williamboman/nvim-lsp-installer'
+  Plug 'ap/vim-css-color'
+  Plug 'sbdchd/neoformat'
 call plug#end()
