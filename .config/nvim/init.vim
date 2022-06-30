@@ -25,8 +25,13 @@ set si
 set nowrap 
 set backspace=start,eol,indent
 set path+=**
+set clipboard=unnamedplus
 
 let mapleader = " "
+
+" Copy and paste from clipboard
+vnoremap <leader>y "+y
+vnoremap <leader>p "+p
 
 runtime ./plug.vim
 runtime ./colors/256_noir.vim

@@ -6,8 +6,6 @@ nnoremap <silent> ;b <cmd>lua require('telescope.builtin').file_browser()<cr>
 nnoremap <silent> \\ <cmd>Telescope buffers<cr>
 nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
 nnoremap <silent> gr <cmd>Telescope lsp_references<cr>
-nnoremap <silent> gr <cmd>Telescope lsp_references<cr>
-nnoremap <Leader><CR> <cmd>Telescope lsp_code_actions<CR>
 
 lua << EOF
 function telescope_buffer_dir()
@@ -18,6 +16,11 @@ local telescope = require('telescope')
 local actions = require('telescope.actions')
 
 telescope.setup{
+  extensions = {
+    ["ui-select"] = {
+      require("telescope.themes").get_dropdown() 
+    }
+  },
   defaults = {
     mappings = {
       n = {
@@ -37,5 +40,7 @@ telescope.setup{
     }
   }
 }
+
+require('telescope').load_extension('ui-select')
 EOF
 

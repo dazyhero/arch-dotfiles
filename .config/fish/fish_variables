@@ -1,6 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export FZF_CTRL_T_COMMAND:ag\x20\x2d\x2dhidden\x20\x2d\x2dignore\x20\x2egit\x20\x2dg\x20\x22\x22\x202\x3e\x20/dev/null
+SETUVAR --export PYENV_ROOT:/home/dazyhero/\x2epyenv
 SETUVAR __fish_initialized:3400
 SETUVAR _fisher_FabioAntunes_2F_fish_2D_nvm_files:/home/dazyhero/\x2econfig/fish/functions/__nvm_run\x2efish\x1e/home/dazyhero/\x2econfig/fish/functions/node\x2efish\x1e/home/dazyhero/\x2econfig/fish/functions/npm\x2efish\x1e/home/dazyhero/\x2econfig/fish/functions/npx\x2efish\x1e/home/dazyhero/\x2econfig/fish/functions/nvm\x2efish\x1e/home/dazyhero/\x2econfig/fish/functions/nvm_alias_command\x2efish\x1e/home/dazyhero/\x2econfig/fish/functions/nvm_alias_function\x2efish\x1e/home/dazyhero/\x2econfig/fish/functions/yarn\x2efish\x1e/home/dazyhero/\x2econfig/fish/completions/nvm\x2efish
 SETUVAR _fisher_edc_2F_bass_files:/home/dazyhero/\x2econfig/fish/functions/__bass\x2epy\x1e/home/dazyhero/\x2econfig/fish/functions/bass\x2efish
@@ -35,6 +36,6 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:cyan\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/dazyhero/\x2efzf/bin
+SETUVAR fish_user_paths:/home/dazyhero/\x2epyenv/bin\x1e/home/dazyhero/\x2efzf/bin
 SETUVAR nvm_data:/home/dazyhero/\x2elocal/share/nvm
 SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
